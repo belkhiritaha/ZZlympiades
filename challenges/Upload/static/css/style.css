@@ -1,0 +1,45 @@
+html {
+    background-color: rgb(45, 42, 42);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(210, 216, 221);
+}
+
+#header , #content {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(210, 216, 221);
+}
+
+/* bWRyIHknYSByaWVuIGnnaSBoaWhpaGlo */
+
+.meme {
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+#upload {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(84, 78, 78);
+    width: 25%;
+    border: 1px solid rgb(210, 216, 221);
+    border-radius: 5px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.title-upload {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(210, 216, 221);
+}

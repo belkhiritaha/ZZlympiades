@@ -5,7 +5,7 @@ function Admin(){
     async function getMessages(){
         return new Promise((resolve, reject) => {
             let xhr = new XMLHttpRequest();
-            xhr.open("GET", "http://localhost:6969/messages", true);
+            xhr.open("GET", "http://192.168.102.69:6969/messages", true);
             xhr.send();
 
             xhr.onload = function(){

@@ -16,7 +16,7 @@ function App() {
         }
         console.log(json);
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://localhost:6969/send", true);
+        xhr.open("POST", "http://192.168.102.69:6969/send", true);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send(JSON.stringify(json));
 

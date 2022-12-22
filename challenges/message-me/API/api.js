@@ -30,7 +30,7 @@ server.post("/send", (req, res) => {
         messages.messages.push(json);
         messages = JSON.stringify(messages);
         fs.writeFileSync("messages.json", messages);
-        res.send({status: "Message bien envoyé, go avertir le prof ;)"});
+        res.send({status: "Message bien envoyé, go avertir l'admin ;)"});
     } else {
         res.send({status: "error"});
     }
